@@ -79,7 +79,7 @@
         color: #90EE90;
         border: 1px solid #90EE90;
     }
-    .editorial{
+    .item{
         width: 75px;
         height: 30px;
         text-align: center;
@@ -93,21 +93,21 @@
        font-size: 20px;
        padding-left: 5px;
     }
-    .blue{
+    .editorial{
         background-color: #1E90FF;
     }
-    .purple{
+    .q1-goals{
         background-color: #a01df6;
     }
-    .green{
+    .Recruiting{
         background-color: #03bd59;
     }
-    .light-green{
+    .Sales{
         background-color: #67f363;
     }
-    .orange{
+    .mobile{
         background-color: #f6ae28;
     }
-    .pink{
+    .website{
         background-color: #e641e6;
     }
