@@ -7,7 +7,7 @@
    body{
        background-color: #ccc;
    }
-   /* HEADER-CONTENT */
+   /* HEADER*/
    h1{
        display: inline-block;
        font-size: 50px;
@@ -20,5 +20,10 @@
         vertical-align: middle;
         width: 100px;
     }
-    /* MAIN-CONTENT */
-    
+    /* MAIN*/
+    main{
+        background-color: #fff;
+        width: 1000px;
+        height: 800px;
+        margin:50px auto;
+    }
