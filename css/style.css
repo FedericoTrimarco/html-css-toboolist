@@ -53,6 +53,9 @@
         color: #ccc;
     }
             /* TASK */
+    ul{
+        list-style-type: none;
+    }
     .task{
         padding: 30px 50px;  
     }
