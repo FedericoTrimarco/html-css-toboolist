@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
 }
    body{
-       background-color: #ccc;
+       background-color: hsl(0, 0%, 90%);
    }
    /* HEADER*/
    h1{
@@ -25,5 +26,26 @@
         background-color: #fff;
         width: 1000px;
         height: 800px;
-        margin:50px auto;
+        margin: 50px auto;
+        border-radius: 10px;
+    }
+    /* BUTTONS */
+    .button_container{
+        border-bottom: 1px solid #ccc;
+        padding: 10px 50px;
+    }
+    button{
+        width: 80px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+    }
+    .button-1{
+        background-color: #1E90FF;
+        color: #fff;
+    }
+    .button-2{
+        border: 1px solid #ccc;
+        background-color: #fff;
+        color: #ccc;
     }
