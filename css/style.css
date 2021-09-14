@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
-    font-weight: bold;
 }
    body{
        background-color: hsl(0, 0%, 90%);
    }
+/*    p{
+       display: inline-block;
+   } */
    /* HEADER*/
    h1{
        display: inline-block;
@@ -39,6 +41,7 @@
         height: 35px;
         border: none;
         border-radius: 5px;
+        font-weight: bold;
     }
     .button-1{
         background-color: #1E90FF;
@@ -49,3 +52,35 @@
         background-color: #fff;
         color: #ccc;
     }
+    /* TASK */
+    .task{
+        padding: 10px 50px 30px;  
+    }
+    .task-row{
+        padding: 10px;
+    }
+   .check{
+    color: #90EE90;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #90EE90;
+    font-weight: bold;
+    display: inline-block;
+   }
+   .editorial{
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #1E90FF;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 12px;
+    display: inline-block;
+   }
+   .description{
+       font-size: 20px;
+   }
